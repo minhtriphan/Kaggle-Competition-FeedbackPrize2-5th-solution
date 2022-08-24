@@ -20,6 +20,13 @@ Description of the solution is released [here](https://www.kaggle.com/competitio
   * `gradient_checkpointing` is enabled to save the cuda memory, but in the real training, I didn't enable it to save time (trained on some A6000);
   * Evaluation are done 10 times per epoch, start evaluating only after 2/5 epochs;
   * Training is done with each fold separately, which means each execution should run with only one fold. If you want to run it with multiple folds, please clone the `.py` files and run each fold with each file.
-6. Run `python train.py` to train the model without pseudo-labels and `python train_pl.py` to train the model with pseudo-labels.
+6. Run
+`
+mv data Kaggle-Competition-FeedbackPrize2-5th-solution
+mv ext_data Kaggle-Competition-FeedbackPrize2-5th-solution
+mv pl_data Kaggle-Competition-FeedbackPrize2-5th-solution
+cd Kaggle-Competition-FeedbackPrize2-5th-solution
+`
+8. Run `python train.py` to train the model without pseudo-labels and `python train_pl.py` to train the model with pseudo-labels.
 
 Any comments, critiques, questions are welcome. Please reach me out at phanminhtri2611@gmail.com for further discussions.
