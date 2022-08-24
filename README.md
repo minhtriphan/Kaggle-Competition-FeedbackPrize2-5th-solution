@@ -27,6 +27,6 @@ mv ext_data Kaggle-Competition-FeedbackPrize2-5th-solution
 mv pl_data Kaggle-Competition-FeedbackPrize2-5th-solution
 cd Kaggle-Competition-FeedbackPrize2-5th-solution
 ```
-8. Run `python train.py` to train the model without pseudo-labels and `python train_pl.py` to train the model with pseudo-labels.
+7. Run `python train.py` to train the model without pseudo-labels and `python train_pl.py` to train the model with pseudo-labels.
 
 Any comments, critiques, questions are welcome. Please reach me out at phanminhtri2611@gmail.com for further discussions.
